@@ -1,0 +1,7 @@
+create sequence SYSTEM.LOG_SEQ
+minvalue 1
+maxvalue 99999
+start with 1069
+increment by 1
+nocache;
+

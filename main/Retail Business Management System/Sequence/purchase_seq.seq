@@ -1,0 +1,9 @@
+create sequence SYSTEM.PURCHASE_SEQ
+minvalue 1
+maxvalue 99999999999999
+start with 100064
+increment by 1
+nocache
+cycle
+order;
+
